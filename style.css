@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(36, 36, 36);
+  font-family: 'Poppins', sans-serif;
+  animation: fade-in 3s forwards; /* <-- animation */
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+header {
+  background-color: rgb(156, 156, 156);
+  text-align: center;
+  border-bottom-style: solid;
+  color: rgb(223, 72, 72);
+}
+
+.main1 {
+  background-color: rgb(156, 156, 156);
+  text-align: center;
+  color: white;
+  transition: transform .5s;
+}
+
+.main1:hover {
+  transform: scale(1.05);
+}
+
+.main2 {
+  background-color: rgb(156, 156, 156);
+  transition: transform .5s;
+}
+
+.main2:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(223, 72, 72);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(223, 72, 72);
+}
+
+img {
+  float: left;
+  width: 13em;
+  height: 13em;
+}
+
+.aboutmetext {
+  color: white;
+}
+
+.lists { /* <-- advanced grid*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* <-- media queries & advanced grid*/
+  color: white;
+}
+
+.list{
+  color: rgb(223, 72, 72);
+}
+
+.links {
+  color: rgb(223, 72, 72);
+  text-decoration: none;
+}
+
+.main3 {
+  background-color: rgb(156, 156, 156);
+  transition: transform .5s;
+}
+
+.main3:hover {
+  transform: scale(1.05);
+}
+
+.journeytext {
+  text-indent: 30px;
+  color: white;
+}
+
+.main4 {
+  background-color: rgb(156, 156, 156);
+  transition: transform .5s;
+}
+
+.main4:hover {
+  transform: scale(1.05);
+}
+
+.contactme {
+  text-align: center;
+  color: white;
+}
+
+.socials {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(156, 156, 156);
+  color: white;
+  transition: transform .5s;
+}
+
+footer:hover {
+  transform: scale(1.05);
+}
+
+h4 {
+  text-align: center;
+  color: rgb(223, 72, 72);
+}
+
+@keyframes fade-in { /* <-- animation */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
