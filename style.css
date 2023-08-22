@@ -71,8 +71,12 @@ img {
 .lists {
   /* <-- advanced grid*/
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* <-- media queries & advanced grid*/
+=======
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* <-- media queries & advanced grid*/
+>>>>>>> 9358402cb30c165be1067b5e765ce614dd18f471
   color: black;
 }
 
