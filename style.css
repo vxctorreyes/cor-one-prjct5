@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: rgb(36, 36, 36);
   font-family: 'Poppins', sans-serif;
   font-family: 'Kanit', sans-serif;
-  animation: fade-in 3s forwards; /* <-- animation */
+  animation: fade-in 3s forwards;
+  /* <-- animation */
   width: 50%;
   height: 100%;
   overflow: auto;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 header {
@@ -64,13 +68,15 @@ img {
   color: white;
 }
 
-.lists { /* <-- advanced grid*/
+.lists {
+  /* <-- advanced grid*/
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* <-- media queries & advanced grid*/
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* <-- media queries & advanced grid*/
   color: white;
 }
 
-.list{
+.list {
   color: rgb(223, 72, 72);
 }
 
@@ -126,7 +132,9 @@ h4 {
   color: rgb(223, 72, 72);
 }
 
-@keyframes fade-in { /* <-- animation */
+@keyframes fade-in {
+
+  /* <-- animation */
   from {
     opacity: 0;
   }
