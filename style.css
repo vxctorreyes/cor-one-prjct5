@@ -31,7 +31,7 @@ header {
 .main1 {
   background-color: rgb(156, 156, 156);
   text-align: center;
-  color: white;
+  color: black;
   transition: transform .5s;
 }
 
@@ -65,7 +65,7 @@ img {
 }
 
 .aboutmetext {
-  color: white;
+  color: black;
 }
 
 .lists {
@@ -73,7 +73,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* <-- media queries & advanced grid*/
-  color: white;
+  color: black;
 }
 
 .list {
@@ -96,7 +96,7 @@ img {
 
 .journeytext {
   text-indent: 30px;
-  color: white;
+  color: black;
 }
 
 .main4 {
@@ -110,7 +110,7 @@ img {
 
 .contactme {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .socials {
@@ -119,8 +119,9 @@ img {
 
 footer {
   background-color: rgb(156, 156, 156);
-  color: white;
+  color: black;
   transition: transform .5s;
+  font-weight: bold;
 }
 
 footer:hover {
